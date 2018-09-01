@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallax</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+	<script>
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				var scroll = $(window).scrollTop();
+				if (scroll > 100) {
+					$(".bg").css("background" , "#167fc4");
+				}
+
+				else{
+					$(".bg").css("background" , "#0000");   
+				}
+			})
+		})
+	</script>
+</head>
+<body>
+	<div id="scroll-animate">
+  <div id="scroll-animate-main">
+    <div class="wrapper-parallax">
+    	<div class="pos-f-t fixed-top">
+    		 <nav class="navbar navbar-dark bg">
+  	<div class="container">
+  	<a class="navbar-brand" href="#">Navbar</a>
+  	
+  		<div class="navbar-header">
+    <div class="bars  " id="nav-action"  data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"  aria-label="Toggle navigation" >
+  		<span class="bar"> </span>
+  	</div></div>
+    </div>
+  </nav>
+  <div class="c3" id="navbarToggleExternalContent">
+    <ul class="nav flex-column">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+</ul>
+  </div>
+    </div>
+      <header>
+        
+      </header>
+
+      <section class="content">
+        <div class="container" style="margin-bottom: 15px;padding: 10px">
+		<p><h1 class="c1">WELCOME</h1></p>
+		<div class="hr-blue"></div>
+		<p style="max-width: 669px; margin: auto" class="p1"> In current scenario, mostly high rise buildings, housing complexes and societies have a requirement of storage and pumping of water. Where raw water is taken from ground, after that it goes through softener and at last boosting to overhead tanks. It requires <b>WATER AUTOMATION</b> for Hotels, Restaurants, Dairies and Industrial users, it is important for consultants and architects to design water supply for disposal in such a way as to ensure that end users never have to worry about handling pumps and overflow levels as a routine. </p>
+	</div>
+	<div class="container-fluid" style="background-color: #f2f2f2 ;padding:10px">
+		<p><h1 class="c1">SERVICE</h1></p>
+		<div class="hr-red"></div>
+		<p style="max-width: 669px; margin: auto" class="p1"> We provide complete water solution from initial stage to final stage of the Water by PLC and VFD based systems. Since water invariably corrodes most equipments, we supply equipment that is <b>NOT AFFECTED</b> by water corrosion means<b> NO MAINTENANCE, NO RUNNING COST </b> it is a plastic sealed container called float sensors and also provide stainless steel solution of PLC with dry run protection. 
+
+			So that we have don't appoint any operator for water for years without any tension means availability of water 24 X 7 X 365. <br><br> </p>
+		</div>
+
+		<div class="container">
+			<p><h1 class="c1">OUR PRODUCTS</h1></p>
+			<div class="hr-blue"></div>
+			<div class="row">
+				<div class="col-lg-3 col-md-6 s1">
+					<a href="products.html#inline" class="products">
+						<div class="img1" style="width:100%">
+							<img src="img/inline_pump.jpg" height="35%" class="img1">
+							<p align="center">Inline Pumps</p></a>
+						</div></div>
+						<div class="col-lg-3 col-md-6 s1">
+							<a href="products.html#vfd" class="products">
+								<div class="img1" style="width:100%">
+									<img src="img/vfd.png" height="35%" class="img1">
+									<p align="center">VFD Control Panel</p></a>
+								</div></div>
+								<div class="col-lg-3 col-md-6 s1">
+									<a href="products_domestic.html#wlc" class="products">
+										<div class="img1" style="width:100%">
+											<img src="img/wlc1.jpg" height="35%" class="img1">
+											<p align="center">Water Level Controller</p></a>
+										</div></div>
+										<div class="col-lg-3 col-md-6 s1 ">
+											<a href="products_domestic.html#indicator" class="products">
+												<div class="img1" style="width:100%">
+													<img src="img/indicator1.png" height="35%" class="img1">
+													<p align="center">Water Level Indicator</p></a>
+												</div></div>
+											</div>
+											<br>
+											<p align="center">
+												<a class="btn btn1" href="products.html" role="button">Browse All Products</a>
+											</div>
+										</p>
+										<br>
+      </section>
+
+      <footer>
+        <div class="container">
+                      <div class="row ">
+                        <div class="col-lg-3 container r1">
+                          <p align="left" class="fh1"><b>LINKS</b></p>
+                          <hr>
+                          <p align="left" class="fd1 "><a href="index.html" class="f1">HOME</a></p>
+                          <p align="left" class="fd1"><a href="products_domestic.html" class="f1">DOMESTIC PRODUCTS</a></p>
+                          <p align="left" class="fd1"><a href="products.html" class="f1">INDUSTRIAL PRODUCTS</a></p>
+                          <p align="left" class="fd1"><a href="trade.html" class="f1">TRADE ENQUIRY</a></p>
+                          <p align="left" class="fd1"><a href="about.html" class="f1">ABOUT US</a></p>
+                          <p align="left" class="fd1"><a href="contact.php" class="f1">CONTACT US</a></p>
+                        </div>
+                        <div class="col-lg-6 container r1">
+                          
+                          <p align="left" class="fh1"><b>SINDHURIA ELECTRICAL INDUSTRIES</b></p>
+                          <hr>
+                          
+                          <p class="fd1">Head Office:- 264/5, Durgapuri Extn., Delhi - 110093, India</p>
+                          <p class="fd1">Branch Office :- Shop No. 34, Super Market, "A" Block, Ramprastha, Ghaziabad, U.P. 201011</p>
+                          
+                          <p class="fd1"> GST Number</p>
+                          <p class="fd1">DELHI GST NO. - 09AHLPB3211A1Z4</p>
+                          <p class="fd1">U.P. GST NO. - 07AHLPB3211A1Z8</p>
+                        </div>
+                        <div class="col-lg-3 container r1">
+                          <p align="left" class="fh1"><b>CONTACT US</b></p>
+                          <hr>
+                          <p class="fd1">Phone : 91-11-22802892</p>
+                          <p class="fd1">Fax : 91-11-22802892</p>
+                          <p class="fd1">Mr. Navneet Bhardwaj (Director)</p>
+                          <p class="fd1">Mobile : +919810083638, +919717516634</p>
+                        </div></div>
+                        
+                      </div>
+      </footer>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
